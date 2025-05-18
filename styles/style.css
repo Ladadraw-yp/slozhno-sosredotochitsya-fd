@@ -87,7 +87,7 @@
 }
 
 .header__theme-menu-button_active {
-  outline: 1px solid var(--accent-color);
+  outline: 1px solid currentColor;
   pointer-events: none;
 }
 
@@ -169,7 +169,7 @@
 }
 
 .article__link:focus-visible {
-  outline: 1px solid var(--main-section-color);
+  outline: 1px solid currentColor;
 }
 
 .article__text {
@@ -202,7 +202,7 @@
   grid-template-rows: 1fr;
   justify-content: center;
   align-items: center;
-  max-block-size: 100vh;
+  block-size: 100vh;
   min-block-size: 668px;
   margin-block-start: var(--footer-margin-block-start);
 }
