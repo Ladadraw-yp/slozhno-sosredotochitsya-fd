@@ -42,7 +42,7 @@
   
   .theme-auto .header__theme-menu-button:hover {
     --accent-color-opacity: rgba(50, 49, 45, .4);
-  } 
+  }
 }
 
 .theme-light .page {
