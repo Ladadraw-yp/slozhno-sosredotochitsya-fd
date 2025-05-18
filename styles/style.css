@@ -35,12 +35,12 @@
 .decorated-zone::before {
   content: '';
   position: absolute;
-  border-inline-start: 1px solid var(--accent-color);
-  border-block-end: 1px solid var(--accent-color);
   inline-size: 25px;
   block-size: 25px;
   inset-block-end: 10px;
   inset-inline-start: 10px;
+  border-inline-start: 1px solid var(--accent-color);
+  border-block-end: 1px solid var(--accent-color);
 }
 
 .decorative-item {
@@ -54,13 +54,13 @@
 .decorative-item::after {
   content: '';
   position: absolute;
-  border-radius: 50%;
-  box-shadow: 0 0 4px 3px var(--accent-color);
-  background-color: var(--accent-color);
   inset-block-start: 8px;
   inset-inline-end: -18px;
   inline-size: 9px;
   block-size: 9px;
+  border-radius: 50%;
+  box-shadow: 0 0 4px 3px var(--accent-color);
+  background-color: var(--accent-color);
 }
 
 .header__theme-menu-list {
@@ -73,13 +73,13 @@
   display: flex;
   justify-content: center;
   border: none;
-  color: var(--accent-color);
   line-height: 18px;
-  text-transform: lowercase;
-  background-color: transparent;
-  cursor: pointer;
   inline-size: 70px;
   block-size: 26px;
+  text-transform: lowercase;
+  color: var(--accent-color);
+  background-color: transparent;
+  cursor: pointer;
 }
 
 .header__theme-menu-button:hover {
@@ -101,10 +101,10 @@
 
 .header__title {
   justify-self: start;
-  color: var(--title-color);
   font-weight: 700;
   font-size: var(--title-font-size);
   line-height: 95.7px;
+  color: var(--title-color);
   text-shadow: 4px 4px var(--shadow-color);
 }
 
@@ -132,11 +132,11 @@
 }
 
 .section__title {
-  margin-block-end: var(--section-element-block-end);
-  color: var(--accent-color);
   font-weight: 700;
   font-size: var(--main-font-size);
   line-height: 23.4px;
+  margin-block-end: var(--section-element-block-end);
+  color: var(--accent-color);
 }
 
 .section__subtitle {
@@ -151,7 +151,7 @@
   line-height: 23.4px;
 }
 
-.article__title_type_light {
+.article__title-type-light {
   font-weight: 400;
 }
 
@@ -174,9 +174,9 @@
 
 .article__text {
   margin-block-start: 10px;
-  color: var(--main-section-color);
   font-weight: 400;
   line-height: 23.4px;
+  color: var(--main-section-color);
 }
 
 .section__subtitle.section__pictures-subtitle {
@@ -202,9 +202,9 @@
   grid-template-rows: 1fr;
   justify-content: center;
   align-items: center;
-  margin-block-start: var(--footer-margin-block-start);
   max-block-size: 100vh;
   min-block-size: 668px;
+  margin-block-start: var(--footer-margin-block-start);
 }
 
 .footer__title {
